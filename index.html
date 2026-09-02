@@ -3,205 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>KRIMER NABATI BUBUK (KRIMER MINUMAN)</title>
-
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/custom.css" />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap"
       rel="stylesheet"
     />
   </head>
+  <nav
+  class="navbar py-2 navbar-light"
+  style="background-color: #ffffff;"
+>
+  <div class="container justify-content-center">
+    <p class="navbar-brand text-dark text-center mb-0">
+      <b>
+        KRIMER NABATI BUBUK<br>
+        (KRIMER MINUMAN)
+      </b>
+    </p>
+  </div>
+</nav>
 
   <body>
-
-    <!-- Judul -->
-    <nav class="navbar py-2 navbar-light bg-white">
-      <div class="container justify-content-center">
-        <p class="navbar-brand text-dark text-center mb-0">
-          <b>
-            KRIMER NABATI BUBUK<br />
-            (KRIMER MINUMAN)
-          </b>
-        </p>
-      </div>
-    </nav>
-
-    <!-- Informasi Nilai Gizi -->
-    <div class="container">
-      <table class="table table-bordered nutrition-table">
-
-        <!-- Header -->
+    <div class="container ">
+    <table class="table table-bordered" style="color: black;">
+      <thead>
+         <tr class="bg-light text-center">
+            <th colspan="6">INFORMASI NILAI GIZI</th>
+         </tr>
+         <tr class="">
+            <td colspan="6">Takaran saji 10 g</td>
+         </tr>
+      </thead>
+      <thead>
+        <tr class="bg-light text-left" style="border-top: 3px solid black;">
+           <th colspan="6">JUMLAH PERSAJIAN</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr class="text-left">
+          <th colspan="4">Energi Total</th>
+          <th colspan="4" style="text-align: right;">50 kkal</th>
+       </tr>
+        <tr class="">
+           <td colspan="4" style="padding-left: 40px;">Energi dari lemak</td>
+           <td colspan="4" style="text-align: right;">30 kkal</td>
+        </tr>
+        <tr class="">
+           <td colspan="4" style="padding-left: 40px;">Energi dari lemak jenuh</td>
+           <td colspan="4" style="text-align: right;">20 kkal</td>
+        </tr>
+      </tbody>
         <thead>
-          <tr class="bg-light text-center">
-            <th colspan="3">
-              INFORMASI NILAI GIZI
-            </th>
-          </tr>
-
-          <tr>
-            <td colspan="3">
-              Takaran saji 10 g
-            </td>
-          </tr>
-
-          <tr class="bg-light nutrition-divider">
-            <th colspan="3" class="text-left">
-              JUMLAH PERSAJIAN
-            </th>
+          <tr class="bg-light text-right" style="border-top: 3px solid black;">
+            <th colspan="0"></th>
+            <th colspan="6">% AKG</th>
           </tr>
         </thead>
-
-        <!-- Energi -->
         <tbody>
           <tr>
-            <th class="nutrition-label">
-              Energi Total
-            </th>
-
-            <th class="nutrition-value">
-              50 kkal
-            </th>
-
-            <th class="nutrition-percent"></th>
+            <th colspan="4">Lemak total</th>
+            <th style="text-align: right;">3 g</th>
+            <th class="text-end nutrition-percent">5 %</th>
           </tr>
-
           <tr>
-            <td class="nutrition-sub">
-              Energi dari lemak
-            </td>
-
-            <td class="nutrition-value">
-              30 kkal
-            </td>
-
-            <td class="nutrition-percent"></td>
+            <th colspan="4">Lemak jenuh</th>
+            <th style="text-align: right;">2 g</th>
+            <th class="nutrition-percent">11 %</th>
           </tr>
-
           <tr>
-            <td class="nutrition-sub">
-              Energi dari lemak jenuh
-            </td>
-
-            <td class="nutrition-value">
-              20 kkal
-            </td>
-
-            <td class="nutrition-percent"></td>
+            <th colspan="4">Protein</th>
+            <th style="text-align: right;">0 g</th>
+            <th class="text-end nutrition-percent">0 %</th>
+          </tr>
+          <tr>
+            <th colspan="4">Karbohidrat total</th>
+            <th style="text-align: right;">6 g</th>
+            <th class="text-end nutrition-percent">2 %</th>
+          </tr>
+          <tr>
+            <th colspan="4">Gula</th>
+            <th style="text-align: right;">1 g</th>
+          </tr>
+          <tr>
+            <th colspan="4">Garam (Natrium)</th>
+            <th style="text-align: right;">20 mg</th>
+            <th class="text-right">1 %</th>
           </tr>
         </tbody>
-
-        <!-- % AKG -->
         <thead>
-          <tr class="nutrition-divider bg-light">
-            <th colspan="2"></th>
-            <th class="nutrition-akg">
-              % AKG
-            </th>
-          </tr>
         </thead>
-
-        <!-- Kandungan Gizi -->
-        <tbody>
-          <tr>
-            <th class="nutrition-label">
-              Lemak total
-            </th>
-
-            <th class="nutrition-value">
-              3 g
-            </th>
-
-            <th class="nutrition-percent">
-              5 %
-            </th>
-          </tr>
-
-          <tr>
-            <th class="nutrition-label">
-              Lemak jenuh
-            </th>
-
-            <th class="nutrition-value">
-              2 g
-            </th>
-
-            <th class="nutrition-percent">
-              11 %
-            </th>
-          </tr>
-
-          <tr>
-            <th class="nutrition-label">
-              Protein
-            </th>
-
-            <th class="nutrition-value">
-              0 g
-            </th>
-
-            <th class="nutrition-percent">
-              0 %
-            </th>
-          </tr>
-
-          <tr>
-            <th class="nutrition-label">
-              Karbohidrat total
-            </th>
-
-            <th class="nutrition-value">
-              6 g
-            </th>
-
-            <th class="nutrition-percent">
-              2 %
-            </th>
-          </tr>
-
-          <tr>
-            <th class="nutrition-label">
-              Gula
-            </th>
-
-            <th class="nutrition-value">
-              1 g
-            </th>
-
-            <th class="nutrition-percent"></th>
-          </tr>
-
-          <tr>
-            <th class="nutrition-label">
-              Garam (Natrium)
-            </th>
-
-            <th class="nutrition-value">
-              20 mg
-            </th>
-
-            <th class="nutrition-percent">
-              1 %
-            </th>
-          </tr>
-        </tbody>
-
-      </table>
     </div>
-
-    <!-- Bootstrap JS -->
+   </table>
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
-
-    <script
-      type="text/javascript"
-      src="js/bootstrap.js"
-    ></script>
-
+    <script type="text/javascript" src="js/bootstrap.js"></script>
   </body>
 </html>
