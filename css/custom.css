@@ -48,3 +48,82 @@
         margin-left: 0 !important;
     }
 }
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: black;
+  }
+  
+  .nutrition-table {
+    width: 100%;
+    color: black;
+    table-layout: fixed;
+  }
+  
+  .nutrition-table th,
+  .nutrition-table td {
+    vertical-align: middle;
+  }
+  
+  /* Kolom nama nutrisi */
+  .nutrition-label {
+    text-align: left;
+  }
+  
+  /* Kolom nilai */
+  .nutrition-value {
+    width: 15%;
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+  /* Kolom % AKG */
+  .nutrition-percent {
+    width: 10%;
+    min-width: 45px;
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+  /* Sub-item seperti Energi dari lemak */
+  .nutrition-sub {
+    padding-left: 40px !important;
+  }
+  
+  /* Header % AKG */
+  .nutrition-akg {
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+  /* Garis pembatas */
+  .nutrition-divider {
+    border-top: 3px solid black !important;
+  }
+  
+  /* Responsive */
+  @media (max-width: 576px) {
+    .nutrition-table {
+      font-size: 13px;
+    }
+  
+    .nutrition-table th,
+    .nutrition-table td {
+      padding: 6px 5px;
+    }
+  
+    .nutrition-value {
+      width: 20%;
+    }
+  
+    .nutrition-percent {
+      width: 15%;
+      min-width: 40px;
+      padding-left: 3px !important;
+      padding-right: 3px !important;
+    }
+  
+    .nutrition-sub {
+      padding-left: 20px !important;
+    }
+  }
