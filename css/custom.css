@@ -127,3 +127,35 @@ body {
       padding-left: 20px !important;
     }
   }
+  /* Nilai nutrisi tidak boleh turun/pecah pada device kecil */
+.nutrition-table th,
+.nutrition-table td {
+  vertical-align: middle;
+}
+
+.nutrition-value,
+.nutrition-percent {
+  white-space: nowrap;
+}
+
+/* Margin horizontal minimum 20px */
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .table {
+    font-size: 14px;
+  }
+
+  .nutrition-value,
+  .nutrition-percent {
+    white-space: nowrap;
+  }
+}
